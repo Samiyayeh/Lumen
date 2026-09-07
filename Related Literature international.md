@@ -4,3 +4,4 @@
 
 ## Entries
 - [ ] [[Polin et al. (2023) - The Making of Smart Campus A Review and Conceptual Framework]]
+- [ ] [[Chatterjee and Ahmed (2022) - IoT Anomaly Detection Methods and Applications A Survey]]
