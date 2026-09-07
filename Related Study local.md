@@ -8,3 +8,4 @@
 - [[David et al. (2025) - Development of Kilowatt-hour Consumption Monitoring System for a State University]]
 - [[Cubacub et al. (2025) - B3Ø Blynk-interfaced Three-Phase Smart Energy Monitoring System]]
 - [[Sanglay et al. (2025) - Illuminating Sustainability]]
+- [[Mababa (2023) - Development of a Real-Time Electricity Meter Monitoring with Theft Detection Alert System]]
