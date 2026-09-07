@@ -61,7 +61,23 @@ You must strictly adhere to the following academic writing rules when drafting t
 
 ## Step 6: Obsidian Vault Integration & Routing
 
-- Upon receiving explicit user approval, automatically transfer and save the approved entry as a Markdown (`.md`) file into the local Obsidian vault.
+- Upon receiving explicit user approval, automatically transfer and save the approved entry as a Markdown (`.md`) file into the local Obsidian vault following the strict template:
+
+  ```markdown
+  # [Full Title]
+
+  **Category:** [[<Category Hub Name>]]
+
+  **[ACM Citation]**
+
+  - **Summary:** [Text]
+
+  - **Relevance:** [Text]
+
+  - **Source Reference(s):**
+    - *[Section / Page]:* [Details or direct quote]
+  ```
+
 - Determine the geographic origin of the study, system, or literature to route the file to the correct directory path:
   - For Study international sources: Save to `00_anotatedbibliography/Related-Study international/`
   - For Study local sources: Save to `00_anotatedbibliography/Related-Study local/`
@@ -69,12 +85,7 @@ You must strictly adhere to the following academic writing rules when drafting t
   - For System local sources: Save to `00_anotatedbibliography/Related-System local/`
   - For Literature international sources: Save to `00_anotatedbibliography/Related-Literature international/`
   - For Literature local sources: Save to `00_anotatedbibliography/Related-Literature local/`
-- **Entry Linking:** Place the category link at the top of the new note:
 
-  ```markdown
-  **Category:** [[<Category Hub Name>]]
-  ```
-
-  - **Category Hub Linking:** Append the new note's wikilink `[[<Note Name>]]` to the corresponding category hub note (e.g., `Related Study local.md`), which connects to `[[Bibliography]]`.
-  - **Graph Hierarchy Maintained:**
-    `[[Bibliography]]` ➔ `[[<Category Hub>]]` ➔ `[[<Individual Entry>]]`
+- **Category Hub Linking:** Append the new note's wikilink `[[<Note Name>]]` to the corresponding category hub note (e.g., `Related Study international.md`), which connects to `[[Bibliography]]`.
+- **Graph Hierarchy Maintained:**
+  `[[Bibliography]]` ➔ `[[<Category Hub>]]` ➔ `[[<Individual Entry>]]`
