@@ -2,7 +2,7 @@
 
 **Category:** [[Related Study local]]
 
-**Marvin Ray G. Sanglay, Wilfredo B. Baniqued, and Orlando D. Davin Jr. 2025. Illuminating Sustainability: Innovative Approaches to Lighting Efficiency and Energy Conservation in Campus Environments. *Isabela State University Linker: Journal of Engineering, Computing and Technology* 2, 2 (2025).**
+**Marvin Ray G. Sanglay, Wilfredo B. Baniqued, and Orlando D. Davin Jr. 2025. Illuminating Sustainability: Innovative Approaches to Lighting Efficiency and Energy Conservation in Campus Environments. *Isabela State University Linker: Journal of Engineering, Computing and Technology* 2, 2 (2025). https://doi.org/10.65141/ject.v2i2.n6**
 
 - **Summary:** Sanglay, Baniqued, and Davin evaluate electrical efficiency and illumination loads across academic facilities at Quirino State University, utilizing light measurement sensors and consumption analytics to identify baseline energy waste in campus classrooms and offices.
 

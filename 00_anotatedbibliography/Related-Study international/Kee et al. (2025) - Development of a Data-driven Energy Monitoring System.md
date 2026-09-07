@@ -2,7 +2,7 @@
 
 **Category:** [[Related Study international]]
 
-**Owen Kwong-Hong Kee, Keh-Kim Kee, Ching Yee Yong, Ramli Rashidi, and Tsu Hsiung Lo. 2025. Development of a Data-driven Energy Monitoring System for Power Consumption and Power Quality Monitoring. *Journal of Renewable Energy and Smart Grid Technology* 20, 2 (2025), 163–175. https://doi.org/10.69650/rast.2025.263660**
+**Owen Kwong-Hong Kee, Keh-Kim Kee, Ching Yee Yong, Ramli Rashidi, and Tsu Hsiung Lo. 2025. Development of a Data-driven Energy Monitoring System for Power Consumption and Power Quality Monitoring. *Journal of Renewable Energy and Smart Grid Technology* 20, 2 (2025), 163–175. DOI: https://doi.org/10.69650/rast.2025.263660**
 
 - **Summary:** Kee et al. address the lack of real-time granularity and analytical capability in conventional energy meters by engineering an IoT monitoring platform using ESP32 microcontrollers and current transformer sensors to capture telemetry across multi-tiered edge and cloud environments.
 
