@@ -4,3 +4,4 @@
 
 ## Entries
 - [ ] [[Republic of the Philippines (2019) - Republic Act No. 11285 Energy Efficiency and Conservation Act]]
+- [ ] [[Department of Energy (2020) - Guidelines on Energy Conserving Design of Buildings]]
