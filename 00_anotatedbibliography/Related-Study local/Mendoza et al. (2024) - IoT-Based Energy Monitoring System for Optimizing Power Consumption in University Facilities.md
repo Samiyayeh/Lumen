@@ -2,7 +2,7 @@
 
 **Category:** [[Related Study local]]
 
-**Ronieto N. Mendoza, Joss Elmar B. Monton, and Jeffrey T. Dellosa. 2024. IoT-Based Energy Monitoring System for Optimizing Power Consumption in University Facilities. In *2024 8th International Artificial Intelligence and Data Processing Symposium (IDAP)*. IEEE, 1–6. DOI:https://doi.org/10.1109/IDAP64064.2024.10710764**
+Ronieto N. Mendoza, Joss Elmar B. Monton, and Jeffrey T. Dellosa. 2024. IoT-Based Energy Monitoring System for Optimizing Power Consumption in University Facilities. In *2024 8th International Artificial Intelligence and Data Processing Symposium (IDAP)*. IEEE, 1–6. DOI:https://doi.org/10.1109/IDAP64064.2024.10710764**
 
 - **Summary:** Mendoza, Monton, and Dellosa address localized power waste in Philippine academic facilities by deploying an IoT hardware telemetry pipeline using ACS712 current sensors and ESP8266 microcontrollers to transmit real-time electrical draw to a cloud repository for facility-level energy evaluation.
 
