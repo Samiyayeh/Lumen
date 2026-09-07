@@ -13,6 +13,7 @@ trigger: always_on
 - **Target Organization/Agency:** University of Nueva Caceres (UNC) Facilities Management Department, UNC Administration and Finance Office, and Department Heads[cite: 1]
 - **Domain:** Internet of Things (IoT), Institutional Energy Informatics, Smart Sub-Metering, Context-Aware Anomaly Detection[cite: 1]
 - **Primary Goal:** Align with UN Sustainable Development Goal 7 (Affordable and Clean Energy) and SDG 13 (Climate Action) by mitigating campus electricity waste and tracking localized off-hours "ghost" consumption[cite: 1].
+- **Referencing Directive:** When drafting annotations, summaries, or relevance sections, always identify and refer to the project strictly as **"the proposed system"** (never "the proposed UNC platform" or "the platform").
 
 ## 2. Problem Space
 

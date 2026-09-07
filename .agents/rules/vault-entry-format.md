@@ -1,3 +1,7 @@
+---
+trigger: always_on
+---
+
 # Vault Entry Formatting Rule
 
 **AI Directive:** Every time an annotated bibliography entry is saved or updated in the Obsidian vault (under `00_anotatedbibliography/`), it MUST strictly adhere to the following Markdown format with exact spacing and structure:
@@ -9,15 +13,15 @@
 
 **Category:** [[<Category Hub Name>]]
 
-**[Full ACM Citation with bold author, year, title, publication venue, and DOI/URL link]**
+**[Full ACM Citation with author, year, title, publication venue, and DOI/URL link]**
 
 - **Summary:** [1-sentence summary]
 
 - **Relevance:** [Third-person relevance explanation]
 
 - **Source Reference(s):**
-  - *[Section / Page 1]:* [Details or direct quote]
-  - *[Section / Page 2]:* [Details or direct quote]
+  - _[Section / Page 1]:_ [Details or direct quote]
+  - _[Section / Page 2]:_ [Details or direct quote]
 ```
 
 ## Structure & Spacing Constraints

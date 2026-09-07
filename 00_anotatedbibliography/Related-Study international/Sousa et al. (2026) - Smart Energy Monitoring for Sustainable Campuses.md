@@ -6,7 +6,7 @@
 
 - **Summary:** Sousa, Cardoso, and Monteiro address campus electrical inefficiencies by deploying a telemetry platform that pairs time-series forecasting with the Isolation Forest algorithm to identify consumption irregularities across heterogeneous institutional meters.
 
-- **Relevance:** The empirical findings demonstrate that isolating residual variance between baseline load models and real-time meter telemetry enables accurate anomaly identification, directly justifying the integration of Isolation Forest algorithms within the proposed platform's backend to flag unscheduled off-hours energy waste.
+- **Relevance:** The empirical findings demonstrate that isolating residual variance between baseline load models and real-time meter telemetry enables accurate anomaly identification, directly justifying the integration of Isolation Forest algorithms within the proposed system's backend to flag unscheduled off-hours energy waste.
 
 - **Source Reference(s):**
   - *Section 1 (Introduction) & Section 3 (Methodology):* Implementation of a campus-scale electricity monitoring system at the University of Algarve integrating IoT meter telemetry with a hybrid Prophet and Isolation Forest anomaly detection pipeline.
