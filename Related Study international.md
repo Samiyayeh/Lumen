@@ -7,3 +7,4 @@
 - [[Wu et al. (2023) - Integrated Energy System Based on Isolation Forest and Dynamic Orbit Multivariate Load Forecasting]]
 - [[Kee et al. (2025) - Development of a Data-driven Energy Monitoring System]]
 - [[Wang et al. (2022) - Toward Delicate Anomaly Detection of Energy Consumption for Buildings]]
+- [[Adriansyah et al. (2026) - Performance Analysis of MQTT and HTTP Protocols on Low-Power ESP32 Devices]]
