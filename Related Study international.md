@@ -10,3 +10,4 @@
 - [[Adriansyah et al. (2026) - Performance Analysis of MQTT and HTTP Protocols on Low-Power ESP32 Devices]]
 - [[Park & Kim (2025) - A Low-Carbon Smart Campus Created by the Strategic Usage of Space]]
 - [[Himeur et al. (2022) - Detection of Appliance-Level Abnormal Energy Consumption in Buildings]]
+- [[Tambun et al. (2025) - Anomaly Detection of Non-Technical Losses in Smart Meter Data]]
