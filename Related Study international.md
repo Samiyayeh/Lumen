@@ -5,3 +5,4 @@
 ## Entries
 - [[Sousa et al. (2026) - Smart Energy Monitoring for Sustainable Campuses]]
 - [[Wu et al. (2023) - Integrated Energy System Based on Isolation Forest and Dynamic Orbit Multivariate Load Forecasting]]
+- [[Kee et al. (2025) - Development of a Data-driven Energy Monitoring System]]
