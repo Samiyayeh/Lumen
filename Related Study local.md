@@ -4,3 +4,4 @@
 
 ## Entries
 - [[Mendoza et al. (2024) - IoT-Based Energy Monitoring System for Optimizing Power Consumption in University Facilities]]
+- [[Merencilla et al. (2023) - IoT-Based Energy Management and Power Outage Detection System for Commercial Buildings]]
