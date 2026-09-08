@@ -6,6 +6,8 @@
 
 - **Summary:** Lorenzo and Recto design an interactive community energy management dashboard utilizing the Next.js component-based web framework to translate complex electrical telemetry into localized visual analytics and actionable consumption metrics.
 
+- **Gap:** The study focuses exclusively on frontend visual dashboard presentation and aggregated community consumption metrics without deploying physical IoT sub-panel telemetry hardware, lacking automated backend anomaly detection algorithms to identify off-hours ghost consumption.
+
 - **Relevance:** The system demonstrates that implementing component-based web frameworks for energy dashboards enhances the operational visibility of localized power data for non-technical stakeholders, informing the frontend architecture and user interface design of the proposed system to present department-level telemetry effectively to campus facility managers.
 
 - **Source Reference(s):**

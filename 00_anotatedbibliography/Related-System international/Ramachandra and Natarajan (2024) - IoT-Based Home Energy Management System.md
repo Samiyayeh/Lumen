@@ -6,6 +6,8 @@
 
 - **Summary:** Ramachandra and Natarajan develop an IoT-driven energy management system that combines custom ESP32-based smart sub-metering hardware, multi-channel analog acquisition, and desktop and mobile monitoring applications to execute automated load profiling and peak power reduction.
 
+- **Gap:** The system focuses exclusively on residential demand-side management and tariff-based load shifting among domestic dwellings, lacking institutional sub-panel distribution monitoring and schedule-correlated ghost consumption auditing.
+
 - **Relevance:** The physical system validates that deploying multi-channel ESP32 edge metering hardware reduces peak load ratios by over fifty percent when tracking localized consumption, providing empirical justification for the edge microcontroller architecture and scheduled load auditing logic designed within the proposed system.
 
 - **Source Reference(s):**

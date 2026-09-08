@@ -6,6 +6,8 @@
 
 - **Summary:** Joha et al. design an industrial IoT energy monitoring and management platform that couples smart sensor acquisition nodes with edge MQTT brokers, TLS-secured transmission, and an optimized Isolation Forest machine learning model to execute real-time power tracking and electrical anomaly detection.
 
+- **Gap:** The system is tailored to industrial factory environments with continuous operational baselines, lacking integration with institutional room scheduling systems or academic timetables to contextualize off-hours power anomalies in educational spaces.
+
 - **Relevance:** The platform demonstrates that deploying an Isolation Forest pipeline over real-time electrical telemetry achieves ninety-five percent precision and ninety-eight percent recall in anomaly identification, providing empirical justification for embedding Isolation Forest anomaly detection within the backend of the proposed system to detect off-hours ghost consumption.
 
 - **Source Reference(s):**

@@ -6,6 +6,8 @@
 
 - **Summary:** Veloso, Reis, and Rabelo design a modular smart metering and energy management architecture combining ESP32 microcontrollers, SCT-013 current transformer sensors, 16-bit analog-to-digital converters, and dedicated backend microservices to execute telemetry ingestion, automated load profiling, and peak interval detection.
 
+- **Gap:** Although utilizing SCT-013 CT sensors and ESP32 microcontrollers, the backend analytics are restricted to basic peak interval identification and demand profiling, lacking an unsupervised machine learning pipeline (such as Isolation Forest) cross-referenced with academic facility schedules to detect off-hours energy waste.
+
 - **Relevance:** The system architecture demonstrates that pairing ESP32 edge processing with non-invasive current transformer sensors and dedicated ingestion microservices achieves reliable telemetry acquisition with high packet delivery rates, validating the hardware sensing stack and decoupled backend processing required by the proposed system to isolate building-level electrical loads.
 
 - **Source Reference(s):**

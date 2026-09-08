@@ -6,6 +6,8 @@
 
 - **Summary:** Ahmed et al. present a multi-tier IoT campus energy management platform that combines electrical panel sub-metering via ESP32 microcontrollers and current transformer sensors, MQTT telemetry ingestion to a Mosquitto broker, MySQL time-series storage, and a responsive Node-RED dashboard for real-time electrical monitoring and appliance control across university spaces.
 
+- **Gap:** Although deployed across campus spaces, the platform depends on manual supervisory dashboard intervention and static threshold rules, lacking automated machine learning algorithms (such as Isolation Forest) to autonomously cross-reference live electrical draw against dynamic class schedules for ghost load detection.
+
 - **Relevance:** The architectural design demonstrates that coupling ESP32 microcontrollers with current transformer sensors at electrical panels enables lightweight telemetry transmission via MQTT to a centralized web dashboard, validating the multi-tier IoT hardware and communication topology required by the proposed system to isolate building-level electrical loads in educational facilities.
 
 - **Source Reference(s):**

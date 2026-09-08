@@ -6,6 +6,8 @@
 
 - **Summary:** Munoz et al. develop an IoT smart sub-meter that integrates an ADE7758 polyphase energy metering IC with an ESP32 microcontroller, differential current sensing, and integrated relays to log electrical telemetry over Wi-Fi and provide real-time consumption monitoring and load switching through a web-deployed dashboard.
 
+- **Gap:** The design requires intrusive hardware wiring and physical relay cut-offs designed for residential appliances, lacking non-invasive split-core current transformer deployment suitable for main sub-panels and context-aware institutional schedule correlation.
+
 - **Relevance:** The embedded architecture demonstrates that interfacing dedicated energy metering ICs with ESP32 microcontrollers achieves sub-one percent measurement error in real-time telemetry acquisition, providing technical validation for deploying ESP32-driven edge sub-metering hardware within the proposed system to capture precise electrical draw across localized facilities.
 
 - **Source Reference(s):**

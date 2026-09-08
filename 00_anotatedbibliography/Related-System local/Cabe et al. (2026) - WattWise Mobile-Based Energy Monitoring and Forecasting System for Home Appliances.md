@@ -6,6 +6,8 @@
 
 - **Summary:** Cabe et al. develop WattWise, an IoT energy monitoring and predictive management platform integrating ESP32 microcontrollers, PZEM-004T measurement modules, a lightweight Python Flask backend API, and a centralized dashboard for real-time electrical draw tracking and time-series load forecasting.
 
+- **Gap:** The architecture is engineered specifically for single-phase residential plug loads with consumer forecasting, lacking multi-circuit sub-panel distribution metering, institutional role-based access control, and context-aware timetable integration required for campus facility auditing.
+
 - **Relevance:** The system architecture confirms that integrating ESP32 edge telemetry with a Python Flask REST API and cloud time-series persistence provides responsive electrical consumption monitoring, directly supporting the technical design of the proposed system's edge-to-backend data ingestion pipeline.
 
 - **Source Reference(s):**

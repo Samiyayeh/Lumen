@@ -6,6 +6,8 @@
 
 - **Summary:** Mallala et al. implement an IoT-enabled three-phase electrical telemetry and power quality monitoring platform combining AC current and voltage sensor networks, an ESP32 edge gateway, and cloud dashboard analytics to capture continuous voltage, current, and active power draw.
 
+- **Gap:** The system prioritizes electrical power quality parameters (harmonics, power factor, voltage sag) in industrial three-phase equipment, lacking context-aware occupancy or timetable correlation and machine learning-driven off-hours ghost load auditing.
+
 - **Relevance:** The system verifies that combining multi-channel current and voltage sensors with an ESP32 gateway delivers continuous multi-phase telemetry logging to a centralized dashboard with minimal percentage error, providing technical validation for deploying ESP32 edge sub-metering infrastructure within the proposed system to monitor complex departmental electrical panels.
 
 - **Source Reference(s):**

@@ -6,6 +6,8 @@
 
 - **Summary:** Supriyono, Hogantara, and Budiman develop an IoT electrical power submeter combining a PZEM-004T measurement sensor with a Wi-Fi-enabled microcontroller and cloud interface to record continuous voltage, current, and energy consumption logs with sub-one percent current measurement deviation.
 
+- **Gap:** The device operates as a single-circuit telemetry data logger pushing raw values to cloud spreadsheets, lacking multi-circuit sub-panel telemetry, centralized institutional role-based dashboards, and algorithmic anomaly detection.
+
 - **Relevance:** The system verifies that deploying dedicated AC sub-metering sensor modules alongside low-cost Wi-Fi microcontrollers achieves 0.85% current measurement precision against commercial reference instruments, validating the hardware telemetry accuracy and data logging reliability targeted by the edge sub-metering units in the proposed system.
 
 - **Source Reference(s):**

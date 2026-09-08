@@ -6,6 +6,8 @@
 
 - **Summary:** Khan et al. develop an institutional energy monitoring platform combining a universal hardware telemetry gateway interfacing via RS-485 Modbus, an encrypted Wi-Fi communication module, and a customizable cloud dashboard providing real-time electrical load visualization and power analytics across facilities.
 
+- **Gap:** The platform relies on commercial Modbus power meters as intermediate hardware interfaces and human visual telemetry inspection, lacking lightweight non-invasive CT clamp direct edge processing and automated unsupervised anomaly detection to flag unscheduled idle consumption.
+
 - **Relevance:** The modular platform demonstrates that deploying vendor-independent hardware telemetry interfaces with real-time web visualization delivers approximately forty percent cost reduction over commercial solutions, informing the data ingestion and dashboard architecture of the proposed system to achieve economical sub-panel monitoring across campus infrastructure.
 
 - **Source Reference(s):**

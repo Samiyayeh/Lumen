@@ -6,6 +6,8 @@
 
 - **Summary:** Wang et al. develop an intelligent building management platform that bridges IoT sensor networks with interactive web-based browser interfaces using an MQTT-over-WebSocket protocol bridge to deliver sub-second data streaming and automated telemetry binding.
 
+- **Gap:** The platform focuses on the WebSocket protocol bridging layer and 3D building information visualization, lacking electrical sub-panel CT clamp current monitoring and automated anomaly detection analytics for energy auditing.
+
 - **Relevance:** The system architecture demonstrates that routing MQTT sensor telemetry across WebSocket communication channels achieves browser data latency of 280 to 550 milliseconds, informing the network communication and web dashboard design of the proposed system to guarantee real-time electrical telemetry delivery for institutional facility administrators.
 
 - **Source Reference(s):**

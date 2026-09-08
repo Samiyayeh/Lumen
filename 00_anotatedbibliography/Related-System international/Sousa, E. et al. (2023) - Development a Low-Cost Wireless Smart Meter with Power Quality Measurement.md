@@ -6,6 +6,8 @@
 
 - **Summary:** Sousa et al. develop a low-cost wireless smart meter combining an ESP32 microcontroller, current transformer signal conditioning circuits, and zero-crossing detection to execute on-chip electrical parameter calculations and stream real-time power telemetry to remote monitoring systems.
 
+- **Gap:** The prototype is limited to edge-level electrical signal acquisition and parameter calculation, lacking an application-tier database, a centralized web management dashboard, and machine learning anomaly detection to interpret usage context or track off-hours facility waste.
+
 - **Relevance:** The prototype demonstrates that computing root-mean-square electrical parameters directly on the ESP32 microcontroller eliminates complex external metering circuitry while maintaining high telemetry accuracy against industrial reference meters, providing an efficient edge-processing architecture for the sub-panel telemetry nodes of the proposed system.
 
 - **Source Reference(s):**

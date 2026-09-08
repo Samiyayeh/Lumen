@@ -6,6 +6,8 @@
 
 - **Summary:** Monteagudo et al. design and deploy an automated classroom energy management system at Don Honorio Ventura State University that pairs passive infrared occupancy sensors with microcontroller-driven relay contactors and a GSM notification unit to cut idle electrical draw in unoccupied instructional spaces.
 
+- **Gap:** The system relies on physical PIR motion sensing to physically sever power via relays, which fails to track continuous electrical load parameters (current, active power, voltage) and introduces false-trigger risks during stationary occupancy, while completely lacking circuit-level electrical sub-metering telemetry and non-invasive off-hours load auditing.
+
 - **Relevance:** The physical classroom deployment confirms that detecting unpopulated room intervals achieves a 45.44% reduction in institutional electricity waste, providing empirical and architectural justification for the context-aware off-hours ghost load auditing mechanisms implemented in the proposed system.
 
 - **Source Reference(s):**
