@@ -8,6 +8,9 @@
 
 - **Relevance:** The study confirms that aligning building load profiles with actual room utilization schedules identifies substantial avoidable energy waste in unoccupied academic spaces, providing direct theoretical and practical justification for the context-aware schedule cross-referencing module in the proposed system.
 
+- **Gap:** Although the study proves that aligning room occupancy schedules with operational profiles reduces university energy waste, it relies on retrospective, macro-level facility audits without an active IoT sub-metering infrastructure. It lacks non-invasive CT clamp sensors on branch sub-panels, automated machine learning algorithms (such as Isolation Forest), and live telemetry pipelines. Consequently, the approach cannot measure localized room-level electrical draw, detect real-time off-hours ghost consumption, or provide campus facility managers with immediate, automated web dashboard alerts.
+
 - **Source Reference(s):**
   - *Section 1 (Introduction) & Section 3 (Methodology):* Categorization of campus facilities integrating structural building characteristics with human-centered space utilization and lecture room occupancy schedules.
   - *Section 4 (Results and Discussion):* Empirical analysis of electrical and thermal load reductions achievable through schedule-driven occupancy management across university facilities.
+  - *Section 5 (Conclusions):* Strategic policy recommendations for smart campus energy management, highlighting the need for predictive modeling and granular real-time tracking across complex facilities.

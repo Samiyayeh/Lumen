@@ -8,6 +8,9 @@
 
 - **Relevance:** The empirical findings indicate that MQTT achieves 4.76× to 12.1× lower transmission latency and consumes 6% to 8% less power than HTTP on ESP32 hardware, providing empirical validation for selecting MQTT ingestion protocols to minimize data latency in the proposed system.
 
+- **Gap:** Although the study provides comprehensive empirical validation that MQTT achieves substantially lower data latency (4.76× to 12.1× faster) and higher power efficiency than HTTP on ESP32 microcontrollers, it is strictly confined to a transport-layer protocol evaluation and Systematic Literature Review. It lacks physical current transformer (CT) sub-metering hardware deployment, a persistent time-series database pipeline (such as PostgreSQL), automated machine learning anomaly detection (such as Isolation Forest), and integration with institutional room-scheduling data. Consequently, the study cannot measure actual electrical parameters, detect off-hours ghost consumption, or provide campus facility administrators with an operational, sub-panel monitoring web dashboard.
+
 - **Source Reference(s):**
-  - *Section 1 (Introduction) & Section 3 (Methodology):* Protocol evaluation framework measuring transmission latency, energy consumption, and packet payload overhead on ESP32 microcontrollers.
-  - *Section 4 (Results and Discussion, pp. 41–44):* Comparative analysis demonstrating response times 4.76× to 12.1× faster under MQTT compared to HTTP under varying network load conditions.
+  - *Section 2 (Method, pp. 39–41):* Systematic Literature Review protocol based on PRISMA 2020 guidelines evaluating empirical studies of ESP32 microcontrollers under MQTT and HTTP communication architectures.
+  - *Section 3 (Results and Discussion, Subsection 3.3.1 & 3.3.2, pp. 41–44):* Comparative analysis demonstrating HTTP response times 4.76× to 12.1× higher than MQTT under fog and cloud server deployments, alongside 6% to 8% energy savings for MQTT.
+  - *Section 4 (Conclusion, pp. 44–45):* Concluding synthesis confirming MQTT's superiority for low-latency, resource-constrained ESP32 IoT implementations while noting the necessity for practical implementations across large-scale physical deployments.

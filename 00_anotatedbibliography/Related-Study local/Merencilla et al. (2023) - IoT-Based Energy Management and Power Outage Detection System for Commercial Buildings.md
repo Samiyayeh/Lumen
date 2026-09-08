@@ -6,8 +6,10 @@
 
 - **Summary:** Merencilla et al. address localized power vulnerabilities and unmonitored commercial energy usage in the Philippines by developing an IoT-based telemetry and supervisory system that records electrical load draw and manages multi-unit resources through a web application.
 
+- **Gap:** The architecture is primarily optimized for power outage detection and sequential load-shedding restoration, relying on manual supervisory switching through a web application rather than schedule-aware machine learning algorithms to autonomously identify and flag off-hours ghost consumption.
+
 - **Relevance:** The empirical findings indicate that pairing IoT sub-circuit telemetry with centralized web dashboards enables real-time oversight of distributed branch loads, which provides practical justification for the multi-tier telemetry and dashboard architecture employed by the proposed system to monitor institutional electricity draw.
 
 - **Source Reference(s):**
-  - *Section I (Introduction) & Section III (System Design):* Development of an IoT energy monitoring architecture deployed across facility units to capture electrical telemetry and manage load states.
-  - *Section IV (Results and Discussion):* Experimental validation of telemetry transmission, multi-unit data ingestion, and web interface responsiveness under varying electrical loads.
+  - *Section I (Introduction) & Section III (System Design):* Development of an IoT energy monitoring architecture deployed across facility units to capture electrical telemetry, manage outage recovery, and control branch load states via a web application.
+  - *Section IV (Results and Discussion):* Experimental validation of telemetry transmission, multi-unit data ingestion, and web interface responsiveness under varying electrical loads and staged outage events.

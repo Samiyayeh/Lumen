@@ -8,6 +8,9 @@
 
 - **Relevance:** The study confirms that evaluating device standby power consumption (DSPC) and inactive duration metrics enables precise identification of idle energy waste, providing theoretical and methodological justification for the anomaly detection logic employed in the proposed system to isolate off-hours ghost consumption across campus sub-circuits.
 
+- **Gap:** Although the study proves that autoencoders and micro-moment metrics effectively detect appliance-level idle power and equipment faults, it relies on granular plug-level monitoring and computationally intensive neural network architectures. It lacks branch-circuit sub-panel metering using non-invasive CT sensors, lightweight unsupervised algorithms (such as Isolation Forest), and integration with institutional classroom timetables. Consequently, the approach is cost-prohibitive for campus-wide scaling and cannot cross-reference aggregated room-level electrical draw against academic schedules to detect unauthorized off-hours ghost consumption.
+
 - **Source Reference(s):**
   - *Section 1 (Introduction) & Section 2 (Micro-moment Extraction Framework, pp. 185–190):* Mathematical extraction of Device Standby Power Consumption (DSPC) and operational duration metrics to characterize idle versus active load states.
   - *Section 3 (Evaluation and Discussion, pp. 191–196):* Experimental testing of unsupervised reconstruction models on real-world building energy data, demonstrating high anomaly detection sensitivity on idle and abnormal equipment draws.
+  - *Section 4 (Conclusion, pp. 196–197):* Summary of autoencoder anomaly detection performance on appliance-level loads and discussion of computational constraints when scaling micro-moment frameworks across broader facility infrastructures.

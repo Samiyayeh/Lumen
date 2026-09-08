@@ -6,8 +6,10 @@
 
 - **Summary:** Pagaduan et al. design and evaluate an IoT telemetry architecture using current sensors and cloud databases to track real-time electrical draw, employing the Input-Process-Output developmental framework to mitigate excessive power consumption in Philippine facilities.
 
+- **Gap:** The implementation relies on multi-board hardware chaining to upload raw current readings to a third-party IoT service (ThingSpeak), functioning solely as a passive numeric logger that lacks institutional database integration, machine learning anomaly detection, and academic timetable cross-referencing to isolate unscheduled off-hours ghost consumption.
+
 - **Relevance:** The study confirms that structuring hardware telemetry and cloud ingestion under the Input-Process-Output framework delivers responsive, real-time power tracking, directly validating the architectural development lifecycle employed by the proposed system to capture and visualize institutional load data.
 
 - **Source Reference(s):**
-  - *Section 1 (Introduction) & Section 3 (Methodology & IPO Framework, pp. 14–18):* Application of the Input-Process-Output (IPO) lifecycle model integrating non-invasive current sensing inputs, microcontroller processing, and cloud database outputs.
-  - *Section 4 (Results and Discussion, pp. 19–23):* Empirical performance testing of real-time power measurement and cloud telemetry visualization under active household and facility loads.
+  - *Section 1 (Introduction) & Section 3 (Methodology & IPO Framework, pp. 21–24):* Application of the Input-Process-Output (IPO) lifecycle model integrating non-invasive current sensing inputs, microcontroller processing, and cloud database outputs.
+  - *Section 4 & Section 5 (Project Development and Results, pp. 24–27):* Hardware configuration using an SCT-013 sensor, Arduino Uno, and Raspberry Pi 3 sending telemetry to ThingSpeak, evaluated across 50 respondents for real-time monitoring and reporting functionality.

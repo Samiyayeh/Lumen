@@ -8,6 +8,9 @@
 
 - **Relevance:** The literature validates the edge-processing tier of the proposed system, demonstrating that pre-processing sub-meter signals directly on ESP32 microcontrollers prior to cloud ingestion reduces telemetry latency and eliminates server network bottlenecks.
 
+- **Gap:** While the review confirms that edge computing reduces telemetry latency and cloud bandwidth bottlenecks, the literature highlights resource constraints on low-power microcontrollers when executing analytical models. Specifically, existing power system architectures lack lightweight partitioning that combines non-invasive edge sensor telemetry with backend anomaly detection. Without this separation, monitoring setups struggle to balance low latency with computational feasibility, hindering the continuous tracking of localized off-hours electrical waste.
+
 - **Source Reference(s):**
-  - _Section 2 (Edge Computing Architecture in Power Systems):_ Surveys hierarchical topologies connecting low-power IoT microcontrollers with centralized backend database infrastructures.
-  - _Section 4 (Data Processing and Anomaly Detection):_ Analyzes the performance gains achieved by executing local data filtering and event-driven anomaly alerting on edge devices.
+  - _Section 2 (Edge Computing Architecture in Power Systems, pp. 3–6):_ Surveys hierarchical topologies connecting low-power IoT microcontrollers with centralized backend database infrastructures.
+  - _Section 4 (Data Processing and Anomaly Detection, pp. 9–13):_ Analyzes the performance trade-offs between local microcontroller preprocessing and server-side machine learning execution.
+  - _Section 6 (Future Opportunities and Challenges, pp. 16–18):_ Emphasizes the need for lightweight edge-to-cloud partitioning in low-cost institutional electrical monitoring deployments.

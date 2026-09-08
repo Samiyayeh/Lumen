@@ -8,6 +8,9 @@
 
 - **Relevance:** The experimental evaluation demonstrates that contextualizing raw load data achieves high anomaly detection precision (AUC_PR values between 0.941 and 0.989), providing empirical justification for cross-referencing live meter draw against academic schedules in the proposed system to detect unscheduled off-hours ghost consumption.
 
+- **Gap:** Although the study proves that contextualizing time-series data structures significantly enhances unsupervised outlier algorithms (evaluating LOF, COF, CBLOF, and Isolation Forest), it is restricted to an offline computational evaluation using retrospective, building-level historical datasets without an active edge IoT hardware tier (such as ESP32 microcontrollers paired with non-invasive CT sensors) or live cross-referencing against institutional room-scheduling databases. Consequently, the framework cannot perform real-time, room-level sub-metered anomaly detection or deliver instantaneous, actionable off-hours ghost load alerts to campus facility managers through an integrated web dashboard.
+
 - **Source Reference(s):**
   - *Section I (Introduction) & Section III (Two-Level Anomaly Detection Framework):* Theoretical formulation of contextualized data transformations and localized outlier detection models for building electrical time-series.
   - *Section IV (Performance Evaluation & Results, pp. 31654–31658):* Empirical validation across three real-world building energy datasets yielding Precision-Recall Area Under the Curve (AUC_PR) scores of 0.989, 0.941, and 0.957.
+  - *Section VII (Conclusion and Future Work, pp. 31657–31658):* Explicit acknowledgment that the framework operated on historical commercial data and requires future work in real-time data retrieval procedures to achieve granular monitoring and map anomalies to specific operational occurrences.
