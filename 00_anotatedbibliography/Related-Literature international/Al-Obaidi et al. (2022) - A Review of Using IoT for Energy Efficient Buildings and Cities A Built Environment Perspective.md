@@ -8,6 +8,8 @@
 
 - **Relevance:** The review validates that multi-layered IoT sensing networks provide the telemetry granularity necessary to expose hidden electrical consumption patterns in institutional facilities, substantiating the architectural design of the sensor-to-dashboard pipeline in the proposed system.
 
+- **Gap:** Although the review establishes that multi-tiered IoT sensing networks can expose structural energy inefficiencies, the literature reveals a significant "knowledge-implementation gap" in the built environment sector: facility personnel often face complex, fragmented sensor topologies without intuitive, role-based visual dashboards. Moreover, current IoT implementations rarely integrate contextual operational parameters (such as building occupancy or reservation schedules), resulting in uncurated telemetry streams that fail to translate into actionable off-hours conservation workflows.
+
 - **Source Reference(s):**
   - _Section 3 (IoT Architecture and Sensing Layers in Built Environments):_ Analyzes hardware sensor deployment, microcontrollers, and communication protocols utilized to gather granular energy metrics.
   - _Section 5 (Energy Management Applications and Environmental Impacts):_ Reviews the role of real-time monitoring and analytics in tracking idle loads and minimizing facility carbon emissions.

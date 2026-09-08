@@ -8,6 +8,8 @@
 
 - **Relevance:** The literature emphasizes that combining real-time IoT sub-meter telemetry with contextual occupancy metrics enables automated identification of idle load waste, establishing theoretical and operational justification for the schedule-correlated anomaly detection architecture implemented in the proposed system.
 
+- **Gap:** While the review validates that machine learning can optimize building energy consumption, it reveals that existing implementations are hampered by poor sensor data quality, high computational overhead, and brittle integration between heterogeneous IoT devices and legacy building systems. Specifically, the synthesized literature points to a critical lack of real-time adaptive models that correlate physical electrical draw with contextual institutional constraints, leaving a gap in lightweight, unsupervised anomaly detection architectures capable of operating reliably on dynamic campus sub-panels.
+
 - **Source Reference(s):**
   - _Section 3 (Machine Learning Applications in Energy Management & Occupancy Optimization):_ Reviews predictive load modeling and occupancy detection pipelines designed to mitigate unneeded electrical consumption in institutional and commercial spaces.
   - _Section 4 (Anomaly Detection and Diagnostic Frameworks):_ Evaluates unsupervised machine learning algorithms deployed on time-series telemetry streams to identify abnormal power spikes and operational waste.

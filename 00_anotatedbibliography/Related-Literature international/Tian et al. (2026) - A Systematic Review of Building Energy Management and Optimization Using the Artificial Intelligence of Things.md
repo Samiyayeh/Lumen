@@ -8,6 +8,8 @@
 
 - **Relevance:** The review demonstrates that pairing real-time IoT telemetry with predictive intelligence overcomes the latency and visibility limitations of legacy building management systems, substantiating the end-to-end integration of edge microcontroller sensing with backend anomaly detection in the proposed system.
 
+- **Gap:** While the systematic review validates the transformative potential of combining AI and IoT for dynamic building energy management, the literature identifies a dominant "algorithm-centric bias" where complex deep learning models are tested in theoretical simulations without longitudinal validation in real-world buildings. Crucially, existing AIoT frameworks incur high computational and hardware costs that contradict "Green AI" principles, while failing to provide lightweight, edge-compatible sub-panel architectures that bridge physical legacy wiring with context-aware anomaly detection.
+
 - **Source Reference(s):**
   - _Section 3 (AIoT Architectural Layers in Building Systems):_ Synthesizes multi-tier IoT architectures connecting edge telemetry collection with centralized cloud-based analytical engines.
   - _Section 4 (Algorithmic Paradigms and Energy Optimization):_ Reviews machine learning algorithms applied to high-frequency sensor streams to identify operational inefficiencies and reduce facility electricity costs.
