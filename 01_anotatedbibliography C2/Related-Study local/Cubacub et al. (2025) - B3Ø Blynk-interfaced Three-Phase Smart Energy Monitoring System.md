@@ -1,0 +1,14 @@
+# B3Ø: Blynk-interfaced Three-Phase Smart Energy Monitoring System
+
+**Category:** [[Related Study local C2]]
+
+**I. K. I. Cubacub, S. N. C. Caburata, E. K. L. Calaguas, J. A. M. De Leon, M. P. Dimaano, I. F. R. Dizon, L. I. Dongallo, A. L. Tangcuangco, and R. L. D. Parungao. 2025. B3Ø: Blynk-interfaced Three-Phase Smart Energy Monitoring System. *International Journal of Electrical Engineering and Applied Sciences* 8, 2 (2025), 67–78. DOI:https://doi.org/10.54554/ijeeas.2025.8.02.010**
+
+- **Summary:** Cubacub et al. designed and evaluated a three-phase smart energy monitor for a Philippine state university by mounting three PZEM-004T modules with 300 A split-core current transformers on a 230 V delta transformer bank using a multi-microcontroller ESP8266 pipeline and Blynk dashboard, achieving a high measurement precision with an overall energy error margin of only 0.08% within ANSI C12.1-2008 standards.
+
+- **Relevance:** This study directly informs the Sensing and Edge Node Tier of the proposed system by empirically validating that split-core current transformers paired with digital energy measurement modules achieve near-utility grade accuracy (0.08% error margin) in a Philippine institutional electrical environment. However, the architectural design exhibits notable boundaries: it relies on an inefficient hardware pipeline chaining three separate ESP8266 microcontrollers to manage sampling, SD storage, and cloud uploads, depends on third-party Blynk mobile software, and measures only aggregated bulk power at the primary transformer drop. Consequently, the system cannot isolate department-level branch circuits and possesses no schedule awareness or machine learning models to detect unscheduled off-hours ghost loads. The proposed system directly overcomes these limitations by consolidating edge telemetry into a single dual-core ESP32 node, streaming over lightweight MQTT to a dedicated PostgreSQL backend, and deploying Isolation Forest anomaly detection cross-referenced with academic timetables to identify localized departmental ghost waste.
+
+- **Source Reference(s):**
+  - _Section II.B & II.E (Hardware & System Installation, pp. 69–71):_ Integration of three PZEM-004T modules with 300 A split-core CTs on a 230 V delta transformer bank, utilizing three distinct ESP8266 microcontrollers (Table I) to split local SD logging, Blynk transmission, and Google Drive upload tasks.
+  - _Section III.A & III.B (Reading Performance & Evaluation, pp. 71–74):_ Empirical benchmarking against a Fluke Power Quality Analyzer and university utility meter proving compliance with ANSI C12.1-2008 ±2% standards and demonstrating an overall energy measurement error of 0.08%.
+  - _Section IV (Conclusion and Recommendation, p. 75):_ Explicit author recommendation to reduce circuit complexity by migrating to a single ESP32 microcontroller, expanding beyond Blynk, and adding automated imbalance and fault analytics.

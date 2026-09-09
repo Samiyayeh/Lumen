@@ -1,0 +1,14 @@
+# A Review of Edge Computing Technology and Its Applications in Power Systems
+
+**Category:** [[Related Literature international C2]]
+
+**Shiyang Liang, Shuangshuang Jin, and Yousu Chen. 2024. A Review of Edge Computing Technology and Its Applications in Power Systems. *Energies* 17, 13 (2024), 3230. DOI: https://doi.org/10.3390/en17133230**
+
+- **Summary:** This survey synthesizes the architectural paradigms and operational capabilities of edge computing—spanning Multi-Access Edge Computing (MAEC), Cloudlet Computing, and Fog Computing across device, edge, and central tiers—with a specialized taxonomy of smart grid applications including power distribution monitoring, smart meter data management systems (Edge-MDMS), decentralized anomaly detection, and state estimation, establishing that migrating intermediate telemetry pre-processing and aggregation to local edge nodes reduces transmission delays by up to 85% and eliminates bandwidth saturation compared to purely centralized cloud architectures.
+
+- **Relevance:** This review directly justifies the edge tier hardware architecture of the proposed system, demonstrating that sampling and locally aggregating high-frequency current telemetry on low-power microcontrollers (ESP32) prior to transmitting over lightweight IoT protocols (MQTT) prevents network bottlenecks, data packet loss, and processing latency inherent in transmitting raw high-frequency waveforms directly to a centralized server. However, the survey reveals that existing edge power system implementations predominantly focus on macro-utility distribution feeders, high-voltage transmission lines, or deploy complex deep neural networks and clustering models directly onto edge devices that risk thermal or memory exhaustion, often forcing systems to default to coarse daily timesteps due to edge storage constraints; the literature lacks lightweight edge partitioning that pairs non-invasive branch CT sub-metering on edge microcontrollers with backend Isolation Forest anomaly detection cross-referenced against institutional academic class schedules to detect localized off-hours ghost consumption.
+
+- **Source Reference(s):**
+  - _Section 1 (Introduction, pp. 2–3):_ Cisco/Dell IoT data scale projections (79.4 ZB across 41.6 billion devices) and the three-tier edge computing architecture (Device Tier, Edge Tier, Central Tier).
+  - _Section 4.2 (Power Grid Distribution Monitoring, p. 11):_ Empirical benchmark demonstrating that delegating computation from central cloud to edge servers reduced detection delay by up to 85% (Huang et al., 2018).
+  - _Section 4.3 & 4.5 (Smart Meters Management & Anomaly Detection, pp. 11–13):_ Analysis of communication media bottlenecks in short time-slice metering, Edge-MDMS daily timestep trade-offs (Utomo et al., 2020), and decentralized edge anomaly detection versus centralized school power monitoring (Cui et al., 2020; Silva et al., 2020).

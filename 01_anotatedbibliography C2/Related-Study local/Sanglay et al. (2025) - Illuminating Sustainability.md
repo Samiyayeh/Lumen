@@ -1,0 +1,14 @@
+# Illuminating Sustainability: Innovative Approaches to Lighting Efficiency and Energy Conservation in Campus Environments
+
+**Category:** [[Related Study local C2]]
+
+**Marvin Ray G. Sanglay, Wilfredo B. Baniqued, and Orlando D. Davin Jr. 2025. Illuminating Sustainability: Innovative Approaches to Lighting Efficiency and Energy Conservation in Campus Environments. *Isabela State University Linker: Journal of Engineering, Computing and Technology* 2, 2 (2025), 94–109. DOI:https://doi.org/10.65141/ject.v2i2.n6**
+
+- **Summary:** Sanglay, Baniqued, and Davin evaluated illumination efficiency across 67 rooms and 53 offices at Quirino State University using DOST-ITDI auditing protocols and handheld lux meters, establishing that artificial 40 W fluorescent fixtures operating in daylit spaces produce approximately 1,252.14 kWh per month in avoidable campus electrical waste.
+
+- **Relevance:** This study directly justifies the problem space and Sensing Tier of the proposed system by empirically proving within a Philippine state university that localized room-level inefficiencies account for substantial monthly electrical waste (1,252.14 kWh/month) that macro-utility billing aggregates and conceals. However, the study’s methodology possesses major operational boundaries: it is strictly a static, manual walkthrough audit restricted to lighting fixtures, omitting heavy dynamic loads such as HVAC systems, and relying on human physical presence during scheduled daytime inspections. Consequently, it creates an audit "compliance theater" and completely lacks real-time IoT edge telemetry, time-series logging, or class schedule cross-referencing to capture off-hours ghost loads. The proposed system directly overcomes these limitations by deploying continuous non-invasive CT clamp sub-metering on electrical panel boards, capturing whole-circuit electrical draw (lighting, HVAC, and plug loads), and using backend Isolation Forest anomaly detection cross-referenced against university timetables to automatically flag unscheduled off-hours energy waste without requiring manual physical inspections.
+
+- **Source Reference(s):**
+  - _Section 2 (Methodology, pp. 97–99):_ Execution of a physical energy auditing protocol across 67 classrooms and 53 administrative offices at QSU Cabarroguis Campus using DOST-ITDI survey instruments, Room Index (RI) formulas, and handheld lux meters.
+  - _Section 3 (Results and Discussion, pp. 99–106):_ Quantitative empirical finding calculating that artificial illumination in daylit spaces generates 1,252.14 kWh per month in avoidable electrical consumption, representing 12,034.32 PHP in unnecessary institutional costs.
+  - _Section 4 (Conclusion and Future Works, pp. 106–107):_ Operational critique noting that mitigation relies on physical LED retrofitting and manual behavioral compliance rather than automated real-time telemetry or digital supervisory analytics.

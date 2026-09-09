@@ -1,0 +1,14 @@
+# IoT-Based Energy Monitoring System for Optimizing Power Consumption in University Facilities
+
+**Category:** [[Related Study local C2]]
+
+**Ronieto N. Mendoza, Joss Elmar B. Monton, and Jeffrey T. Dellosa. 2024. IoT-Based Energy Monitoring System for Optimizing Power Consumption in University Facilities. In *2024 8th International Artificial Intelligence and Data Processing Symposium (IDAP)*. IEEE, 1–6. DOI:https://doi.org/10.1109/IDAP64064.2024.10710764**
+
+- **Summary:** Mendoza, Monton, and Dellosa designed an IoT room-level energy management system for Caraga State University using NodeMCU ESP8266 microcontrollers, invasive ACS712 Hall-effect current sensors, and electromechanical relays linked to a Google Firebase cloud database, proving that localized current sensing achieves an active load measurement precision within a ±1.5% error margin while enabling remote circuit switching via a web GUI.
+
+- **Relevance:** This study directly informs the Sensing and Edge Node Tier of the proposed system by demonstrating within a Philippine academic facility that localized circuit current sensing achieves acceptable measurement accuracy (±1.5% error). However, the engineering architecture exhibits severe operational and safety limitations: the reliance on inline ACS712 Hall-effect sensors requires invasive physical conductor splicing, the omission of dynamic AC voltage sensing introduces errors during campus grid voltage fluctuations, and the load control relies strictly on human-in-the-loop manual relay switching via a web interface. Furthermore, the platform possesses no machine learning capabilities or academic schedule integration, leaving facility personnel unable to automatically distinguish legitimate instructional power draw from idle off-hours ghost waste. The proposed system directly overcomes these vulnerabilities by adopting non-invasive split-core CT clamps for safe sub-panel retrofitting, dual-core ESP32 edge processing with MQTT telemetry, and backend Isolation Forest anomaly detection cross-referenced against university class schedules to flag unscheduled off-hours ghost consumption autonomously.
+
+- **Source Reference(s):**
+  - _Section III (System Architecture & Hardware Setup, pp. 2–3):_ Circuit implementation pairing NodeMCU ESP8266 microcontrollers with inline ACS712 Hall-effect current sensors and electromechanical relays interfaced with a Google Firebase Realtime Database.
+  - _Section IV (Testing and Evaluation, pp. 4–5):_ Hardware benchmark results demonstrating a ±1.5% current measurement error margin against reference instruments, alongside explicit documentation of the omission of AC voltage sensing.
+  - _Section V (Conclusion, p. 6):_ Operational critique acknowledging that room load shedding is executed via manual supervisory switching over a web GUI rather than predictive or schedule-driven automated analytics.

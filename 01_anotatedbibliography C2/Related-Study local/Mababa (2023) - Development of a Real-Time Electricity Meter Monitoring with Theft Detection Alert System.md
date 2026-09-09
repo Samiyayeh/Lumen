@@ -1,0 +1,14 @@
+# Development of a Real-Time Electricity Meter Monitoring with Theft Detection Alert System
+
+**Category:** [[Related Study local C2]]
+
+**Jonilo C. Mababa. 2023. Development of a Real-Time Electricity Meter Monitoring with Theft Detection Alert System. *International Journal of Research and Innovation in Social Science* 7, 9 (2023), 886–893. DOI:https://doi.org/10.47772/IJRISS.2023.70976**
+
+- **Summary:** Mababa developed an IoT electricity monitoring and theft alerting prototype for Philippine consumers using an Arduino Mega 2560, dual current sensors, and a SIM800L GSM module, achieving a 95% power calculation accuracy and an overall ISO/IEC 25010 software quality rating of 4.56 across 421 consumer and engineering respondents.
+
+- **Relevance:** This study directly establishes the methodological foundation for the Evaluation Tier of the proposed system by demonstrating that the ISO/IEC 25010 Software Quality Standards—quantified via 5-point Likert surveys and weighted mean calculations across Functional Suitability (4.54), Performance Efficiency (4.57), and Usability (4.53)—provide an empirically validated framework for evaluating institutional energy monitoring software in the Philippines. However, the system's analytical and hardware scope possesses severe architectural boundaries: anomaly detection is limited to basic arithmetic subtraction between two current sensors to detect physical wire tapping, and notifications depend on high-latency SMS texting over a SIM800L module. The platform contains no machine learning algorithms and completely lacks institutional timetable integration, leaving it incapable of identifying operational energy waste or detecting off-hours ghost consumption across university facilities. The proposed system resolves these analytical deficiencies by implementing 32-bit ESP32 microcontrollers with MQTT telemetry, replacing simple subtraction logic with unsupervised Isolation Forest anomaly detection, and cross-referencing live power draw against institutional class schedules to identify unscheduled campus ghost loads autonomously.
+
+- **Source Reference(s):**
+  - _Section II.A & II.B (Methodology & Microcontroller Programming, pp. 887–888):_ Integration of an Arduino Mega 2560, dual current sensor clampers, and a SIM800L GSM module developed under the Rapid Application Development (RAD) framework.
+  - _Section III & Table 2 (Evaluation & ISO/IEC 25010 Assessment, pp. 889–892):_ Empirical evaluation across 421 respondents assessing ISO/IEC 25010 criteria, achieving general weighted means in Functional Suitability (4.54), Performance Efficiency (4.57), Usability (4.53), and an overall mean of 4.56.
+  - _Section IV (Conclusion, pp. 892–893):_ Operational critique showing that anomaly alerts are strictly confined to physical tap theft detection via SMS messaging rather than automated operational waste classification or predictive energy management.

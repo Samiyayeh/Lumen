@@ -1,0 +1,14 @@
+# IoT-Based Energy Management and Power Outage Detection System for Commercial Buildings
+
+**Category:** [[Related Study local C2]]
+
+**Niño E. Merencilla, Estrelita T. Manansala, Mona Earl P. Bayono, Nino U. Pilueta, Dexter D. Ablaza, Justine Kate D. Flores, Jayve S. Perillo, and Allysson V. Reyes. 2023. IoT-Based Energy Management and Power Outage Detection System for Commercial Buildings. In *2023 IEEE 15th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)*. IEEE, 1–6. DOI:https://doi.org/10.1109/HNICEM60674.2023.10589154**
+
+- **Summary:** Merencilla et al. engineered an IoT energy management platform for Philippine commercial facilities using ESP32 microcontrollers and a ThingSpeak cloud backend to monitor branch electrical loads, successfully implementing automated blackout/brownout alerts and a rolling power restoration sequence that re-energizes low-current circuits first to prevent inrush spikes upon grid recovery.
+
+- **Relevance:** This study directly informs the Sensing and Edge Node Tier of the proposed system by validating the real-world deployment of ESP32 microcontrollers for multi-circuit telemetry in Philippine commercial installations. However, the architectural scope of their platform is constrained to reactive grid outage management and sequential inrush-current protection, relying on ThingSpeak static threshold alerts and manual supervisory relay switching. Their approach possesses an operational blind spot regarding continuous energy auditing: it lacks machine learning analytics and contains no academic timetable awareness, rendering it unable to detect unscheduled off-hours ghost consumption during normal grid operations. The proposed system resolves these boundaries by shifting the objective from reactive outage recovery to proactive waste mitigation, utilizing lightweight MQTT messaging, backend Isolation Forest anomaly detection, and automated class schedule cross-referencing to autonomously flag idle energy waste without requiring manual relay intervention.
+
+- **Source Reference(s):**
+  - _Section I & Section III (System Architecture & Methodology, pp. 1–3):_ Implementation of ESP32 microcontrollers with Wi-Fi connectivity interfaced with shared-area branch circuits and a ThingSpeak cloud repository.
+  - _Section IV (Results and Discussion, pp. 4–5):_ Validation of the rolling power restoration mechanism that sequences branch re-energization based on lowest active current draw to prevent electrical overloads.
+  - _Section V (Conclusion, p. 6):_ Operational critique highlighting that consumption alerts and device controls remain dependent on static thresholds and manual supervisory interaction rather than automated predictive intelligence.

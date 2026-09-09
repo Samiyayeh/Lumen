@@ -1,0 +1,15 @@
+# The Development of Real-Time Energy Consumption Monitoring using IoT
+
+**Category:** [[Related Study local C2]]
+
+**Lyndel Jean L. Pagaduan, Jhobert G. Portolazo, Jounariz Xavier D. Delfin, John Pablo O. Dela Cruz, and Micah Bambie O. Estanda. 2023. The Development of Real-Time Energy Consumption Monitoring using IoT. *Advanced Computational Intelligence: An International Journal* 10, 3 (2023), 21–28. DOI:https://doi.org/10.5121/acii.2023.10302**
+
+- **Summary:** Pagaduan et al. developed and evaluated a real-time IoT energy monitoring prototype in the Philippines using an SCT-013 split-core current sensor, an Arduino Uno, and a Raspberry Pi 3 gateway transmitting load data to ThingSpeak under the Input-Process-Output framework, achieving strong user evaluation ratings (3.84–3.94 out of 4.00) across 50 institutional and residential evaluators.
+
+- **Relevance:** This study directly informs the developmental lifecycle and Sensing Tier of the proposed system by empirically validating that the Input-Process-Output (IPO) model effectively structures IoT energy telemetry and confirms that non-invasive SCT-013 split-core current transformers deliver reliable real-time current capture in a Philippine deployment context. However, their physical and software architecture suffers from critical limitations: the design relies on an inefficient dual-board hardware pipeline chaining an Arduino Uno to a Raspberry Pi 3 over USB serial, omits dynamic voltage sensing, and depends on rate-limited ThingSpeak cloud charting. Furthermore, the platform is strictly a passive telemetry logger lacking institutional database infrastructure, machine learning anomaly detection, and academic timetable awareness, rendering it incapable of identifying unscheduled off-hours ghost consumption. The proposed system directly resolves these weaknesses by consolidating edge processing into a single low-power dual-core ESP32 node, streaming telemetry over lightweight MQTT to a high-concurrency PostgreSQL backend, and deploying Isolation Forest anomaly detection cross-referenced against university class schedules to isolate departmental ghost waste autonomously.
+
+- **Source Reference(s):**
+  - _Section 1 & Section 4.1 (Introduction & Hardware Specifications, pp. 21–24):_ Implementation of the Input-Process-Output (IPO) framework integrating SCT-013 split-core current sensors, an Arduino Uno, a DS3231 RTC, a Raspberry Pi 3 gateway with a 3.2-inch TFT display, and ThingSpeak cloud storage.
+  - _Section 4.2 & 4.4 (Block Diagram & Wiring, pp. 25–26):_ Circuit architecture detailing the serial communication bridge between the Arduino microcontroller and the Raspberry Pi 3 to transmit sensor readings.
+  - _Section 5 (Results and Discussion, pp. 26–27):_ Descriptive statistical analysis across 50 respondents confirming high operational usability with mean scores of 3.93 for real-time monitoring and 3.84 for cloud data ingestion.
+  - _Section 7 (Recommendations, p. 27):_ Operational critique noting the absence of automated tripping and advanced report analytics, recommending sensor upgrades for higher load capacities.
